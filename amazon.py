@@ -17,15 +17,9 @@ df.head()
 df.shape
 
 
-##############################
-#Görev1
-##############################
-
-#Adım 1
 
 df["overall"].mean()
 
-#Adım 2
 
 df["reviewTime"] = pd.to_datetime(df["reviewTime"])
 current_date = df["reviewTime"].max()
@@ -53,15 +47,10 @@ time_based_weighted_average(df)
 
 
 
-##############################
-#Görev2
-##############################
-
-#Adım 1
 
 df["helpful_no"] = (df.total_vote - df.helpful_yes) #yararsız bulunan oy sayısı
 df["helpful_no"].head()
-#Adım 2
+
 
 def score_pos_neg_diff(up,down):
     return up - down
@@ -74,13 +63,7 @@ def score_average_rating(helpful_yes, helpful_no):
 
 def wilson_lower_bound(up, down, confidence=0.95):
     """
-    Wilson Lower Bound Score hesapla
-
-    - Bernoulli parametresi p için hesaplanacak güven aralığının alt sınırı WLB skoru olarak kabul edilir.
-    - Hesaplanacak skor ürün sıralaması için kullanılır.
-    - Not:
-    Eğer skorlar 1-5 arasıdaysa 1-3 negatif, 4-5 pozitif olarak işaretlenir ve bernoulli'ye uygun hale getirilebilir.
-    Bu beraberinde bazı problemleri de getirir. Bu sebeple bayesian average rating yapmak gerekir.
+    Wilson Lower Bound Score
 
     Parameters
     ----------
