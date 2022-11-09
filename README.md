@@ -8,9 +8,9 @@ Data Summary
 
 The dataset used , which includes Amazon product data, includes product categories and various metadata. The product with the most reviews in the electronics category has user ratings and reviews.
 
-- 'reviewerID': User ID
+- reviewerID: User ID
 
-- 'asin': Product ID
+- asin: Product ID
 
 - reviewerName: Username
 
