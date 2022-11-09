@@ -8,26 +8,26 @@ Data Summary
 
 The dataset used , which includes Amazon product data, includes product categories and various metadata. The product with the most reviews in the electronics category has user ratings and reviews.
 
-reviewerID--- User ID
+- 'reviewerID':User ID
 
-asin---Product ID
+- 'asin'---Product ID
 
-reviewerName---Username
+- reviewerName---Username
 
-helpful---Helpful Rating rating
+- helpful---Helpful Rating rating
 
-reviewText---Review
+- reviewText---Review
 
-overall---Product rating
+- overall---Product rating
 
-summary---Review summary
+- summary---Review summary
 
-unixReviewTime---Review zamanı
+- unixReviewTime---Review zamanı
 
-reviewTime---Review time Raw 
+- reviewTime---Review time Raw 
 
-day_diff---Number of days since review
+- day_diff---Number of days since review
 
-helpful_yes---The number of times the review was found useful
+- helpful_yes---The number of times the review was found useful
 
-total_vote---Number of votes given to the review
+- total_vote---Number of votes given to the review
