@@ -10,7 +10,7 @@ The dataset used , which includes Amazon product data, includes product categori
 
 reviewerID--- User ID
 
-asin---Product ID’si
+asin---Product ID
 
 reviewerName---Username
 
