@@ -22,7 +22,7 @@ The dataset used , which includes Amazon product data, includes product categori
 
 - summary: Review summary
 
-- unixReviewTime: Review zamanı
+- unixReviewTime: Review time
 
 - reviewTime: Review time Raw 
 
